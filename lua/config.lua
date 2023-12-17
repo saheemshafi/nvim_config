@@ -18,6 +18,7 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
+
 -- Theme
 vim.cmd("colorscheme tokyonight")
 require('config.treesitter')
@@ -28,3 +29,4 @@ require('config.cmp')
 require('config.bufferline')
 require('config.lualine')
 require('config.comment')
+require('config.toggle-term')

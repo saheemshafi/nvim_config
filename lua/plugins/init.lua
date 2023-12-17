@@ -10,5 +10,6 @@ return {
     require('plugins.vim-autopairs'),
     require('plugins.bufferline'),
     require('plugins.lualine'),
-    require('plugins.comment')
+    require('plugins.comment'),
+    require('plugins.toggle-term')
 }
