@@ -1,7 +1,6 @@
 return {
     require("plugins.colorscheme"),
     require("plugins.nvim-tree"),
-    require("plugins.whichkey"),
     require("plugins.treesitter"),
     require('plugins.autocomplete'),
     require("plugins.lsp"),
