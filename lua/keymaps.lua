@@ -48,3 +48,7 @@ vim.keymap.set('n', '<leader>7', '<Cmd>BufferLineGoToBuffer 7<CR>', opts)
 vim.keymap.set('n', '<leader>8', '<Cmd>BufferLineGoToBuffer 8<CR>', opts)
 vim.keymap.set('n', '<leader>9', '<Cmd>BufferLineGoToBuffer 9<CR>', opts)
 vim.keymap.set('n', '<leader>$', '<Cmd>BufferLineGoToBuffer -1<CR>', opts)
+vim.keymap.set('n', '<leader>-', ':bd<CR>', opts);
+
+-- LazyGit
+vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>', opts);

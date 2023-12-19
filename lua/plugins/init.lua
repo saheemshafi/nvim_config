@@ -10,5 +10,6 @@ return {
     require('plugins.bufferline'),
     require('plugins.lualine'),
     require('plugins.comment'),
-    require('plugins.toggle-term')
+    require('plugins.toggle-term'),
+    require('plugins.lazygit')
 }
