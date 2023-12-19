@@ -11,5 +11,6 @@ return {
     require('plugins.lualine'),
     require('plugins.comment'),
     require('plugins.toggle-term'),
-    require('plugins.lazygit')
+    require('plugins.lazygit'),
+    require('plugins.gitsigns')
 }
