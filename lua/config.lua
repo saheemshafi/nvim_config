@@ -1,5 +1,6 @@
 -- General settings
 vim.o.termguicolors = true
+vim.cmd("colorscheme catppuccin-mocha")
 vim.o.syntax = 'on'
 vim.o.errorbells = false
 vim.o.swapfile = false
@@ -18,9 +19,6 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
-
--- Theme
-vim.cmd("colorscheme tokyonight")
 require('config.treesitter')
 require('config.vim-autopairs')
 require('config.lsp')

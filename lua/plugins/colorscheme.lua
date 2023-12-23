@@ -1,7 +1,2 @@
-return
-{
-    "folke/tokyonight.nvim",
-    lazy = false,
-    opts = { style = "moon" },
-}
+return { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
 
